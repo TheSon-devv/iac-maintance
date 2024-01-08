@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "gitopsterrastate"
+    bucket = "tf-app-maintance"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
